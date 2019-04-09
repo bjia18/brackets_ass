@@ -30,7 +30,8 @@ typedef struct StackNode
 // A structure to represent a stack 
 typedef struct  {       
     unsigned capacity;
-	int top;	
+	int top;
+    Bracket *array;	
     //TODO: depending on the implementation - fill-in the fields of a struct
 }Stack; 
 
